@@ -1,0 +1,13 @@
+Separate customer communications from internal communications
+
+Prevent modules from message_subsrcribe (
+	/addons/sale/models/sale.py line 520
+	/addons/product_email_template/models/account_invoice.py you'll see it
+	/addons/mail/models/ir_actions.py line 41 43
+	/addons/project/wizard/project_task_merge_wizard.py line 55
+	/addons/project/models/project.py line 247 259 270 786 811
+	/addons/event/models/event.py line 282 291
+	/addons/account/models/account_invoice.py line 1178
+	)
+
+Prevent mentions from showing non-user partners
